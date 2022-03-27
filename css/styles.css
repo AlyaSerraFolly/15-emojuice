@@ -5,9 +5,14 @@ html {
 body {
   max-width: 380px;
   margin: auto;
-  font-family: 'Maven Pro', sans-serif;
-  font-family: 'Quattrocento', serif;
-  font-family: 'Sriracha', cursive;
+  text-align: center;
+}
+
+.fruitHeader {
+  background-image: url(../img/background_fruits_header.webp);
+  background-size: 380px;
+  height: 380px;
+  width: 380px;
 }
 
 main {
@@ -25,4 +30,12 @@ p {
 .titlebox{
 background-color: white;
 position: absolute;
+}
+
+
+.fruits {
+  width: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

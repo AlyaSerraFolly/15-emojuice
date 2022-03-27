@@ -7,16 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">
-    <title>EmoJuice - Official Website</title>
+    <title>EmoJuice - official Website</title>
   </head>
   <body>
-    <header>
-      <img src="img/background_fruits_header.webp" alt="fruit drawing">
-      <div>
+    <header class="siteHeader">
+    <div class="fruitCard"> 
+      <img src="img/background_fruits_header.webp" alt="fruitBackground" />
+      </div>
         <img src="img/SVG/emojuice_logo.svg" alt="emojuice logo">
+     <div>
         <p>Boisson végétales<br>préparées avec amour</p>
       </div>
-        <a class=button>Accédez à nos produits</a>
+        <a class="buttonProduct" href=#product>Accédez à nos produits</a>
         <a class=buttonLight>Nous contacter</a>
     </header>
     <main>
@@ -25,12 +27,14 @@
         <p>Chez emojuice, nous tentons de vous fournir des produits sains et 
           respectueux de la planète.
         </p>
-        <img src="img/SVG/peach.svg" alt="peach icon">
-        <img src="img/SVG/lemon.svg" alt="lemon icon">
-        <img src="img/SVG/watermelon.svg" alt="watermelon icon">
-        <img src="img/SVG/orange.svg" alt="orange icon">
+        <div class=container>
+          <div class=fruits>
+          <img src="img/SVG/peach.svg" alt="peach icon">
+          <img src="img/SVG/lemon.svg" alt="lemon icon">
+          <img src="img/SVG/watermelon.svg" alt="watermelon icon">
+          <img src="img/SVG/orange.svg" alt="orange icon">
+        </div>
       </div>
-      <div>
         <h2>Nos produits</h2>
         <figure>
           <article class="card">
@@ -46,7 +50,7 @@
             <img src="img/SVG/watermelon.svg" alt="watermelon icon">
             <a href="https://imd1.ch/recettes">En savoir plus</a>
           </article>
-
+          
           <article class="card">
             <h3>Glacé au café</h3>
             <p>«Un espresso pour Georges!»</p>
@@ -65,9 +69,9 @@
     </main>
     <footer>
       <h2>Nous contacter</h2>
-      <a class=button>Accédez à nos produits</a>
-      <a class=button>Nous contacter</a>
-      <a class=button>Nous contacter</a>
+      <a class=buttonContact>Accédez à nos produits</a>
+      <a class=buttonContact>Nous contacter</a>
+      <a class=buttonContact>Nous contacter</a>
       <p>Emojuice est une marque <br>déposée par Veggies inc. Switzerland.</p>
       <img src="img/SVG/banana.svg" alt="banana icon">
       <img src="img/SVG/kiwii.svg" alt="kiwi icon">
