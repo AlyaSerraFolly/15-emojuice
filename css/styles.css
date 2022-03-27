@@ -4,24 +4,43 @@ html {
 
 body {
   max-width: 380px;
+  border-top: 8px solid;
   margin: auto;
   text-align: center;
 }
 
-.fruitHeader {
-  background-image: url(../img/background_fruits_header.webp);
-  background-size: 380px;
+header {
+  background-size: cover;
   height: 380px;
   width: 380px;
+  background-image: url(../img/background_fruits_header.webp);
+  padding-top: 1px;
+}
+
+.site-Header {
+}
+
+.header-Container {
+display: flex;
+flex-wrap: wrap;
+justify-items: center;
+margin: 28px 30px;
+background-color: #ffff;
+}
+
+.Card-Header {
+  margin: 28px 50px 0px 50px;
 }
 
 main {
   background-color: #57BB6B;
 }
+
 img {
-  max-width: 100%;
-  height: auto;
+  margin: 0;
 }
+
+.fruit-Card-Container
 
 p {
   font-family: 'Sriracha', cursive;
