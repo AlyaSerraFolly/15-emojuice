@@ -14,10 +14,14 @@ header {
   height: 380px;
   width: 380px;
   background-image: url(../img/background_fruits_header.webp);
-  padding-top: 1px;
+  margin: 0;
 }
 
 .site-Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-Container {
@@ -28,8 +32,8 @@ margin: 28px 30px;
 background-color: #ffff;
 }
 
-.Card-Header {
-  margin: 28px 50px 0px 50px;
+.logo {
+  margin: 30px 50px;
 }
 
 main {
