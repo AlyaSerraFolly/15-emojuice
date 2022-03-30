@@ -212,20 +212,114 @@ color: #ffffff;
   color: #57BB6B;
   padding-top: 30px;
 }
-
-.light-card p {
-  font-family: 'Quattrocento';
-  margin-top: 0px;
-  margin-bottom: 50px;
-  font-size: 16px;
-  opacity: 60%;
+.product-container-small img {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 70px;
+  border-radius: 10px;
 }
 
-.light-card img {
+.product-container-small a {
+  text-decoration: none;
+  font-family: 'Maven Pro';
+  font-size: 38px;
+  opacity: 0.5;
+  margin: auto;
+}
+.product-container-small h3 {
+  font-family: 'Sriracha';
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 20px 0 20px;
+}
+
+.light-card {
+  background-color: #C4F2AD;
+}
+
+.light-card-bottom {
+  background-color: #C4F2AD;
+  padding-bottom: 50px;
+}
+
+.light-card-bottom h2 {
+  padding-top: 30px;
+}
+
+.light-card-bottom h3 {
+  font-family: 'Sriracha';
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  max-width: 120px;
+  padding: 28px 10px 0 10px;
+}
+
+.round-kiwis h3 {
+  font-family: 'Sriracha';
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.round-kiwi img {
   background-color: #ffffff;
   border-radius: 50%;
   margin-bottom: 50px;
   padding: 40px;
   width: 100px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+}
+
+.fruit-description h2 {
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.fruit-description p {
+  padding: 10px 0 10px 0;
+  }
+
+.fruit-description img {
+  max-width: 250px;
+}
+
+.fruit-description {
+  font-family: 'Quattrocento';
+  background-color: #57BB6B;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 68px 50px 68px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* small card */
+
+.card-kiwi-page {
+  border-radius: 30px;
+  margin: 6px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px #01150531;
+  text-align: left;
+}
+
+.product-container-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product-container-small img {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 70px;
+  border-radius: 10px;
+}
+
+.light-card-bottom h3 {
+  font-family: 'Sriracha';
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  max-width: 120px;
+  padding: 28px 10px 0 10px;
 }
