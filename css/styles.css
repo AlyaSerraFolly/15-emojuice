@@ -130,7 +130,7 @@ p {
 
 .link-container img {
   width: 80px;
-  padding-left: 70px;
+  padding-left: 75px;
 }
 
 .product h3 {
@@ -138,7 +138,10 @@ p {
   font-size: 30px;
   line-height: 48px;
   margin: 0;
-  padding: 30px 0 0 0;
+}
+
+.product h2 {
+color: #ffffff;
 }
 
 .product p {
@@ -161,18 +164,35 @@ p {
   margin: 20px;
   box-shadow: 0 0 10px #011505bd;
   text-align: left;
-  padding: 34px;
-  min-width: 250px;
-  background-color: #ffffff;
+  padding: 35px;
+  min-width: 250;
 }
 
-.card-product fruit {
+.product-container {
   padding-bottom: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.card-product strawberry {
+.link-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.banana {
+  background-color: #FFF8D7;
+}
+
+.kiwi {
+  background-color: #C4F2AD;
+}
+
+.coffee {
+  background-color: #D3C6B2;
+}
+
+.strawberry {
   background-color: #F7A4B4;
 }
