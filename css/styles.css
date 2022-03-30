@@ -27,7 +27,7 @@ header {
 
 .title-container {
   background-color: #ffffffdd;
-  margin: 30px;
+  margin: 28px;
   padding: 8px;
 }
 
@@ -45,7 +45,7 @@ header {
   color: #57BB6B;
 }
 
-.button-product {
+.button {
   font-family: 'Maven Pro';
   font-size: 20px;
   background-color: #57BB6B;
@@ -58,7 +58,7 @@ header {
   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
 
-.button-product-light {
+.button-light {
   font-family: 'Maven Pro';
   font-size: 20px;
   color: #57BB6B;
@@ -161,7 +161,7 @@ color: #ffffff;
 
 .card-product {
   border-radius: 30px;
-  margin: 20px;
+  margin: 28px;
   box-shadow: 0 0 10px #011505bd;
   text-align: left;
   padding: 35px;
@@ -195,4 +195,37 @@ color: #ffffff;
 
 .strawberry {
   background-color: #F7A4B4;
+}
+
+/* Footer */
+
+.footer p {
+  font-family: 'Maven Pro';
+  color: #57BB6B;
+  font-size: 12px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  margin: 0 50px;
+}
+
+.footer h2 { 
+  color: #57BB6B;
+  padding-top: 30px;
+}
+
+.light-card p {
+  font-family: 'Quattrocento';
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  opacity: 60%;
+}
+
+.light-card img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  padding: 40px;
+  width: 100px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
