@@ -212,6 +212,7 @@ color: #ffffff;
   color: #57BB6B;
   padding-top: 30px;
 }
+
 .product-container-small img {
   box-sizing: border-box;
   margin: auto;
@@ -223,9 +224,8 @@ color: #ffffff;
   text-decoration: none;
   font-family: 'Maven Pro';
   font-size: 38px;
-  opacity: 0.5;
-  margin: auto;
 }
+
 .product-container-small h3 {
   font-family: 'Sriracha';
   font-size: 20px;
@@ -243,21 +243,12 @@ color: #ffffff;
 }
 
 .light-card-bottom h2 {
-  padding-top: 30px;
+  padding: 30px 0 30px 0px;
 }
 
-.light-card-bottom h3 {
+.round-kiwi h3 {
   font-family: 'Sriracha';
-  font-size: 20px;
-  margin: 0 10px 0 10px;
-  max-width: 120px;
-  padding: 28px 10px 0 10px;
-}
-
-.round-kiwis h3 {
-  font-family: 'Sriracha';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .round-kiwi img {
@@ -268,6 +259,8 @@ color: #ffffff;
   width: 100px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
+
+/* main kiwi */
 
 .fruit-description h2 {
   padding-top: 40px;
@@ -294,6 +287,10 @@ color: #ffffff;
 }
 
 /* small card */
+
+.bottom a {
+flex-direction: row;
+}
 
 .card-kiwi-page {
   border-radius: 30px;
