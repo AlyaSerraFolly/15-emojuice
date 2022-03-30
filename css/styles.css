@@ -233,22 +233,31 @@ color: #ffffff;
   margin: 20px 20px 0 20px;
 }
 
-.light-card {
-  background-color: #C4F2AD;
-}
-
 .light-card-bottom {
   background-color: #C4F2AD;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 .light-card-bottom h2 {
   padding: 30px 0 30px 0px;
 }
 
+.round-kiwi {
+  background-color: #C4F2AD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
 .round-kiwi h3 {
   font-family: 'Sriracha';
   font-size: 30px;
+  margin-bottom: 0;
+}
+
+.round-kiwi p {
+  margin-top: 0;
 }
 
 .round-kiwi img {
@@ -259,6 +268,11 @@ color: #ffffff;
   width: 100px;
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
 }
+
+hr {
+  padding: 10px;
+  border: 0;
+  }
 
 /* main kiwi */
 
@@ -287,10 +301,6 @@ color: #ffffff;
 }
 
 /* small card */
-
-.bottom a {
-flex-direction: row;
-}
 
 .card-kiwi-page {
   border-radius: 30px;
@@ -321,11 +331,13 @@ flex-direction: row;
   padding: 28px 10px 0 10px;
 }
 
-hr {
-padding: 10px;
-border: 0;
-}
-
 .button-footer {
  padding-top: 40px;
+}
+
+.bottom {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+justify-content: space-between;
 }
