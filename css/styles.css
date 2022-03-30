@@ -120,7 +120,7 @@ p {
 .flexbox-fruit {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .flexbox-fruit img {
@@ -281,7 +281,7 @@ color: #ffffff;
   background-color: #57BB6B;
   color: #ffffff;
   font-size: 16px;
-  padding: 0 68px 50px 68px;
+  padding: 0 68px 20px 68px;
   font-weight: 400;
   text-align: left;
 }
@@ -319,4 +319,13 @@ flex-direction: row;
   margin: 0 10px 0 10px;
   max-width: 120px;
   padding: 28px 10px 0 10px;
+}
+
+hr {
+padding: 10px;
+border: 0;
+}
+
+.button-footer {
+ padding-top: 40px;
 }
