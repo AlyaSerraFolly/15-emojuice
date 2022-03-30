@@ -92,36 +92,43 @@ header {
 h2 {
   font-family: 'Maven Pro';
   margin: 0;
-  padding-top: 30px;
 }
 
-img {
-  margin: 0;
+.introduction {
+  padding: 80px 70px 20px 70px;
 }
 
-.flexbox-fruit {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.introduction p {
+  font-family: 'Quattrocento';
+  font-size: 16px;
 }
 
-.flexbox-fruit img {
-width: 30px;
- 
-}
-  
 p {
+  display: block;
   font-family: 'Sriracha', cursive;
 }
 
-.titlebox{
-background-color: white;
-position: absolute;
+.flexbox-fruit {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
-.fruits {
-  width: 27px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.flexbox-fruit img {
+  padding: 20px;
+  width: 30px;
 }
+
+.link-container img {
+  width: 80px;
+}
+
+.product {
+  background-color: #57BB6B;
+}
+
+.product-card {
+  background-color: #ffffff;
+}
+
+
