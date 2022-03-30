@@ -4,15 +4,15 @@ html {
 
 body {
   max-width: 380px;
-  border-top: 8px solid;
+  border-top: 8px solid #57BB6B;
   margin: auto;
   text-align: center;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
 
 /* Header */
 
 header {
-  background-size: cover;
   height: 380px;
   width: 380px;
   margin: 0;
@@ -22,55 +22,94 @@ header {
   background-image: url(../img/background_fruits_header.webp);
   background-size: cover;
   padding-top: 1px;
+  padding-bottom: 28px;
 }
 
 .title-container {
   background-color: #ffffffdd;
   margin: 30px;
-  padding: 20px;
+  padding: 8px;
 }
 
 .logo {
-  margin: 30px 50px;
+  margin: 20px 50px 0;
+  padding-top: 10px;
+  
+}
+
+.slogan {
+  font-family: 'Quattrocento', serif;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #57BB6B;
 }
 
 .button-product {
   font-family: 'Maven Pro';
+  font-size: 20px;
   background-color: #57BB6B;
   color: #ffffff;
   border-radius: 15px;
   text-decoration-line: none;
   margin: 8px 0;
-  padding: 11px 20px;
+  padding: 10px 20px;
   transition-duration: 0.5s;
   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
 
 .button-product-light {
   font-family: 'Maven Pro';
+  font-size: 20px;
   color: #57BB6B;
   background-color: #ffffff;
   text-decoration: none;
   margin: 8px 0;
-  padding: 11px 20px;
+  padding: 10px 20px;
   border-radius: 14px;
   transition-duration: 0.5s;
   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
 
+.header-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #57BB6B;
+}
+
+.button-light:hover {
+  color:#ffffff;
+  background-color: #57BB6B;
+}
+
 /* Main */
 
-
-main {
-  background-color: #57BB6B;
+h2 {
+  font-family: 'Maven Pro';
+  margin: 0;
+  padding-top: 30px;
 }
 
 img {
   margin: 0;
 }
 
-.fruit-Card-Container
+.flexbox-fruit {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 
+.flexbox-fruit img {
+width: 30px;
+ 
+}
+  
 p {
   font-family: 'Sriracha', cursive;
 }
@@ -79,7 +118,6 @@ p {
 background-color: white;
 position: absolute;
 }
-
 
 .fruits {
   width: 27px;
